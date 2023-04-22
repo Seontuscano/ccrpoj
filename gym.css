@@ -1,0 +1,144 @@
+*{
+    font-family: cursive;
+}
+.navbar{
+background-color: rgb(255, 255, 255);
+
+}
+.navbar ul{
+
+overflow: auto;
+}
+.navbar li{
+float: right;
+padding: 4px 5px;
+margin: 20px 22px;
+list-style: none;
+
+
+}
+.navbar a{
+   color: black;
+   text-decoration: none;
+}
+
+
+
+#address{
+background-color: yellow;
+}
+#id{
+float: left;
+padding: 4px 5px ;
+margin: 3px 1px;
+list-style: none;
+font-size: 35px;
+
+}
+a:hover{
+background-color: yellow;
+}
+.container{
+height:auto;
+width: auto;
+text-align: center;  
+padding-top: 15%;      
+background: url("https://source.unsplash.com/1500x600/?gym");
+/*background-size: 1350pxpx;*/
+font-size:50px;
+
+background-repeat: no-repeat;
+color: aliceblue;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#btn{
+background-color: yellow;
+width: 150px;
+border: 3px solid black;
+border-radius: 8px;
+height: 45px;
+margin-left: 45%;
+margin-bottom: 30px;
+}
+#yellow{
+color: yellow;
+}
+
+.container a{
+color: black;
+text-decoration: none;
+font-size: 16px;
+}
+.join:hover{
+color: white;
+
+
+}
+#size{
+text-align: center;
+font-size:30px;
+}
+#yellow1{
+background-color: yellow;
+}
+
+
+.main{
+border: 2px solid black;
+padding: 3px 4px;
+margin: 4px 5px;
+}
+#workout{
+
+/* text-align: center;
+padding-left: 1.5%;
+float: left;*/
+width: 350px;
+text-align: center;
+}
+#intense{
+/*  padding-left: 1.5%;
+text-align: center;
+float: left;*/
+text-align: center;
+width: 350px;
+}
+#gym{
+/* padding-left: 1.5%;
+
+float: left;*/
+text-align: center;
+width: 350px;
+}
+
+.btn1{
+text-align: center;
+color: black;
+background-color: red;
+padding: 10px 5px;
+margin: 10px 5px;
+cursor: pointer;
+border-radius: 4px;
+
+
+}
+.btn1:hover{
+background-color: aliceblue;
+
+}
+.container1{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-around;
+/*  align-content: space-around;*/
+}
